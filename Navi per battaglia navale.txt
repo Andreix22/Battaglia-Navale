@@ -1,0 +1,22 @@
+Navi per battaglia navale:
+2x2 
+2x3
+2x4
+1x1
+1x5
+10x10 Campo	
+
+
+Regole del gioco:
+le navi si possono disporre solo in orizzontale o solo in verticale
+le navi non sono contigue le une con le altre
+le navi non sono sovrapponibili
+ci possono essere due giocatori
+si può fare un colpo attesta(a meno che il colpo non venga messo a segno, in tal caso abbiamo un altro colpo a disposizione
+vince il primo giocatore che affonda tutta la flotta nemica
+'O' = oceano , 'X' = nave colpita
+
+le informazioni sul display devono inludere
+chi sta giocando
+quando navi si hanno, quante navi nemiche sono rimaste, e quante navi sono affondate
+
