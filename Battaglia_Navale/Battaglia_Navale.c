@@ -5,12 +5,13 @@
 #define COL 11
 
 void caricaCampoBattagliaNavale (char campoGiocatore [][COL]);
-void VisualizzaPartita(char campoGiocatore[][COL]);
+void VisualizzaPartita(char campoGiocatore[][COL], char campoGiocatore2[][COL]);
 
 int main() {
     char CampoGiocatore1[ROW][COL], CampoGiocatore2[ROW][COL];
     caricaCampoBattagliaNavale(CampoGiocatore1);
-    VisualizzaPartita(CampoGiocatore1);
+    caricaCampoBattagliaNavale(CampoGiocatore2);
+    VisualizzaPartita(CampoGiocatore1, CampoGiocatore2);
     return 0;
 }
 void caricaCampoBattagliaNavale (char campoGiocatore[][COL]) {
@@ -31,11 +32,20 @@ void caricaCampoBattagliaNavale (char campoGiocatore[][COL]) {
         }
     }
 }
-void VisualizzaPartita(char campoGiocatore[][COL]){
+void VisualizzaPartita(char campoGiocatore[][COL], char campoGiocatore2[][COL]){
     for(int i = 0; i < ROW; i++){
         for(int j = 0; j < COL; j++){
             printf("%3c", campoGiocatore[i][j]);
         }
         printf("\n");
     }
+    printf("\n");
+
+    for(int i = 0; i < ROW; i++){
+        for(int j = 0; j < COL; j++){
+            printf("%3c", campoGiocatore2[i][j]);
+        }
+        printf("\n");
+    }
+
 }
