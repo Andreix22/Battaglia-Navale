@@ -16,7 +16,7 @@ si può fare un colpo attesta(a meno che il colpo non venga messo a segno, in ta
 vince il primo giocatore che affonda tutta la flotta nemica
 'O' = oceano , 'X' = nave colpita
 
-le informazioni sul display devono inludere
+le informazioni sul display devono includere
 chi sta giocando
 quando navi si hanno, quante navi nemiche sono rimaste, e quante navi sono affondate
 
