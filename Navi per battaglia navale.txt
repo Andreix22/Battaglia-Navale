@@ -1,9 +1,10 @@
 Navi per battaglia navale:
-2x2 
-2x3
-2x4
-1x1
-1x5
+1 da 1 
+2 da 2 
+2 da 3 
+2 da 4 
+1 da 5
+
 10x10 Campo	
 
 
@@ -16,7 +17,12 @@ si può fare un colpo attesta(a meno che il colpo non venga messo a segno, in ta
 vince il primo giocatore che affonda tutta la flotta nemica
 'O' = oceano , 'X' = nave colpita
 
-le informazioni sul display devono includere
+le informazioni sul display devono inludere
 chi sta giocando
 quando navi si hanno, quante navi nemiche sono rimaste, e quante navi sono affondate
 
+
+disposizione manuale e automatica 
+le navi non si devono toccare (opzione sfioro solo in angolo || opzione libera)
+
+si possono sparare un massimo di 76 colpi
