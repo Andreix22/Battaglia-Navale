@@ -1,3 +1,0 @@
-C:/Users/9136/CLionProjects/Battaglia_Navale/cmake-build-debug/CMakeFiles/Battaglia_Navale.dir
-C:/Users/9136/CLionProjects/Battaglia_Navale/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/9136/CLionProjects/Battaglia_Navale/cmake-build-debug/CMakeFiles/rebuild_cache.dir
