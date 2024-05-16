@@ -11,6 +11,7 @@ void caricaCampoBattagliaNavale (char campoGiocatore[][COL]) {
         campoGiocatore[i][0] = campocolonne; //Riservo la prima riga per la creazione delle coordinate x
         campocolonne++;
     }
+    campoGiocatore[10][0] = '10';
     for (int i = 1; i < ROW; ++i) {
         for (int j = 1; j < COL; j++) { // Genera l'interno nel campo
             campoGiocatore[i][j] = 219;
