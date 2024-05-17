@@ -285,7 +285,7 @@ void caricaNaviManuale(char campoGiocatore[][COL], int tipop) {
             } else {
                 orient = 'j';
             }
-        } while (controlloIndici(campoGiocatore, orient, i, j, dimnav, tipop) == 1);// Riesegue l'algoritmo affinché l'attacco non venga eseguito correttamente
+        } while (controlloIndici(campoGiocatore, orient, i, j, dimnav, tipop) == 1);// Riesegue l'algoritmo finche le navi non vengono piazzate correttamente
 
 
         if(orient == 'i') { //Piazzo la nave in orizzontale o in verticale in base al carattere assegnato casualmente a cont
